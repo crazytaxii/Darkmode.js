@@ -15,7 +15,7 @@ I have been inspired by this article: https://dev.wgao19.cc/2019-05-04__sun-moon
 - Can be used programmatically without widget
 
 ## ✨ Demo
-Check out the demo in these websites: 
+Check out the demo in these websites:
 - https://darkmodejs.learn.uno
 - https://tradivegan.com (with custom label)
 - https://what.toeat.in (with custom label)
@@ -67,6 +67,7 @@ var options = {
   saveInCookies: false, // default: true,
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
+  zIndex: 1 // default: auto
 }
 
 const darkmode = new Darkmode(options);
@@ -118,7 +119,7 @@ This library uses the CSS `mix-blend-mode: difference;` to provide the Dark Mode
 It may not be compatible with all the browsers. Therefore the widget has been hidden in Internet Explorer and Edge.
 This library also uses `prefers-color-scheme: dark` to automatically enable the Dark Mode if the OS prefered theme is dark.
 
-Check the compatibility here: 
+Check the compatibility here:
 - https://caniuse.com/#search=mix-blend-mode
 - https://caniuse.com/#search=prefers-color-scheme (to activate Dark Mode automatically)
 
@@ -133,7 +134,7 @@ Please ⭐️ this repository if this project helped you!
 
 <a href="https://www.patreon.com/sandoche">[![patreon.png](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/sandoche)</a>
 
-## 🍺 Buy me a beer 
+## 🍺 Buy me a beer
 If you like this project, feel free to donate:
 * PayPal: https://www.paypal.me/kanbanote
 * Bitcoin: 19JiNZ1LkMaz57tewqJaTg2hQWH4RgW4Yp

@@ -17,7 +17,8 @@ export default class Darkmode {
       buttonColorLight: '#fff',
       label: '',
       saveInCookies: true,
-      autoMatchOsTheme: true
+      autoMatchOsTheme: true,
+      zIndex: 'auto',
     };
 
     options = Object.assign({}, defaultOptions, options);
@@ -67,6 +68,7 @@ export default class Darkmode {
         right: ${options.right};
         bottom: ${options.bottom};
         left: ${options.left};
+        z-index: ${options.zIndex};
         cursor: pointer;
         transition: all 0.5s ease;
         display: flex;
