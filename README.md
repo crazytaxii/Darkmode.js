@@ -1,5 +1,10 @@
 # Darkmode.js
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Medium Badge](https://badgen.net/badge/icon/medium?icon=medium&label)](https://medium.com/@sandoche) [![Twitter: sandochee](https://img.shields.io/twitter/follow/sandochee.svg?style=social)](https://twitter.com/sandochee)
+
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+[![Medium Badge](https://badgen.net/badge/icon/medium?icon=medium&label)](https://medium.com/@sandoche)
+[![Twitter: sandochee](https://img.shields.io/twitter/follow/sandochee.svg?style=social)](https://twitter.com/sandochee)
 
 🌓 Add a Dark Mode / Night Mode to your website in a few seconds
 
@@ -12,7 +17,7 @@ I have been inspired by this article: https://dev.wgao19.cc/2019-05-04__sun-moon
 ## Features
 - Widget appears automatically
 - Saving users choice
-- Automatically shows Darkmode if the OS prefered theme is dark (if the browsers support `prefers-color-scheme`)
+- Automatically shows Darkmode if the OS preferred theme is dark (if the browsers support `prefers-color-scheme`)
 - Can be used programmatically without widget
 
 ## ✨ Demo
@@ -28,6 +33,10 @@ Check out the demo in these websites:
 If you are using Wordpress you may want to have a look at these plugins based on Darkmode.js:
 - https://wordpress.org/plugins/blackout-darkmode-widget/
 - https://wordpress.org/plugins/darkmode/
+
+## Nuxt.js module
+If you are using Nuxt.js there is a module for Darkmode.js:
+- https://github.com/sandoche/nuxtjs-darkmode-js-module
 
 ## 📖 How to use
 Darkmode.js is very easy to use, just copy-paste the following code or use the npm package.
@@ -145,3 +154,17 @@ If you like this project, feel free to donate:
 * Ethereum: 0xded81fa4624e05339924355fe3504ba9587d5419
 * Monero: 43jqzMquW2q989UKSrB2YbeffhmJhbYb2Yxu289bv7pLRh4xVgMKj5yTd52iL6x1dvCYs9ERg5biHYxMjGkpSTs6S2jMyJn
 * Motive: MOTIV-25T5-SD65-V7LJ-BBWRD (Get Motive Now: https://motive.network)
+
+## 📄 License
+
+[MIT License](./LICENSE)
+
+Copyright (c) Sandoche Adittane
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/darkmode-js/latest.svg
+[npm-version-href]: https://npmjs.com/package/darkmode-js
+[npm-downloads-src]: https://img.shields.io/npm/dt/darkmode-js.svg
+[npm-downloads-href]: https://npmjs.com/package/darkmode-js
+[license-src]: https://img.shields.io/npm/l/darkmode-js.svg
+[license-href]: ./LICENSE
